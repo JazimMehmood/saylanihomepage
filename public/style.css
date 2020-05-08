@@ -1,0 +1,1298 @@
+body{
+    /* background-color: rgb(247, 248, 250); */
+}
+
+li{
+    list-style: none;
+    display: inline;
+    
+    margin-right: 15px;
+    margin-top: 100px;
+    
+    
+    
+   
+   
+    }
+
+    
+
+.container-images{
+    
+    
+   }
+
+.top-bar{
+    background-color: rgb(49, 109, 195);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+.millions-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    list-style-type: none;
+
+}
+
+
+.button1, .button2, .button3 {
+    color: rgb(66, 121, 0);
+    border: solid 0.25px rgb(66, 121, 0);
+    padding: 10px 24px;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.icons-topbar{
+    position: relative;
+    right: -20px;
+    
+}
+
+.button-topbar{
+    margin
+    
+}
+
+.individual-image:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button-secondbar{
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#button-secondbar:hover{
+    background-color: rgb(49, 109, 195);
+    color: white;
+}
+
+.parent-secondbar{
+    height: 70px;
+    /* border: solid 0.5px black; */
+    background-color: rgb(247, 248, 250);
+    display: flex;
+    align-items: center;
+    
+
+}
+.saylani-image{
+    align-self: flex-start;
+}
+
+.parentbutton-secondbar{
+    position: absolute;
+  right: 150px;
+
+}
+
+.saylani-image{
+    
+    position: relative;
+    left: 80px;
+}
+#button-secondbarhome{
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.marquee-div{
+    height: 23px;
+    background-color: rgb(49, 109, 195);
+    margin-top: 12px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 7px;
+    
+}
+.marquee-date{
+    color: rgb(144, 238, 144);
+}
+.marquee-moredetails{
+    color: rgb(134, 178, 240);
+}
+marquee{
+    color: white;
+    }
+
+.container{
+    background-color: rgb(247   , 248, 250);
+    
+    
+}    
+
+#intro{
+    color: rgb(49, 109, 195);
+    font-family: serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+#duction{
+    color: green;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.intro-text, .intro-image{
+    float: right;
+    
+}
+
+.parent-facts{
+    background-color: rgb(38, 85, 232);
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    
+}
+
+
+.parent-dailydast, .parent-familyadoption, .parent-medical, .parent-education{
+    margin: 0px;
+    padding: 60px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-family: serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+   
+    
+    
+}
+h2{
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+    font-size: 2rem;
+}
+h6{
+    margin-top: -10px;
+    padding-top: -10px;
+    font-size: 1rem;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(247, 248, 250);
+    padding: 90px;
+  
+    grid-gap: 30px 50px;
+}
+.grid-item {
+    background-color: rgb(255, 255, 255);
+        /* border: 1px solid black; */
+    
+    padding: 25px 2px 25px 2px;
+    font-size: 22.5px;
+    text-align: center;
+    box-shadow: 0px 7px 17px -2px rgba(107,104,107,0.60);
+    text-transform: uppercase;
+    color: rgb(83, 134, 204);
+}
+
+.grid-texttop{
+    grid-column: 1 / 4;
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 540;
+    font-size: 32px;
+    text-transform: uppercase;
+
+
+  }
+  .im21{
+      background-color: white;
+  }
+
+
+
+  .parentgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-gap: 10px 10px;
+    padding: 10px;
+    padding-left: 120px;
+    margin-right: 120px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 3; 
+        
+        color: rgb(49, 109, 195);
+    font-family: serif;
+    font-weight: 800;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    }
+    .div2 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        border: 5px solid rgba(238, 238, 238, 0.527);
+        padding: 20px;
+        text-align: start;
+        background-color: rgb(247, 248, 250);
+        
+        margin-left: 25px;
+    font-family: serif;
+    color: rgb(49, 109, 195);
+    font-weight: 550;
+    font-size: large;
+    margin-top: 25px;
+    text-transform: uppercase;
+        
+        
+    }
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3;
+        border: 5px solid rgba(238, 238, 238, 0.527);
+        padding: 20px;
+        text-align: start; 
+        background-color: rgb(247, 248, 250);
+        
+        margin-left: 25px;
+    font-family: serif;
+    color: rgb(49, 109, 195);
+    font-weight: 550;
+    font-size: large;
+    margin-top: 25px;
+    text-transform: uppercase;
+        
+    }
+    .div4 {
+         grid-area: 3 / 1 / 4 / 2;
+         border: 5px solid rgba(238, 238, 238, 0.527);
+         padding: 20px;
+         text-align: start;
+         background-color: rgb(247, 248, 250);
+         
+         margin-left: 25px;
+    font-family: serif;
+    color: rgb(49, 109, 195);
+    font-weight: 550;
+    font-size: large;
+    margin-top: 25px;
+    text-transform: uppercase;
+    }
+        
+    .div5 { 
+        grid-area: 3 / 2 / 4 / 3;
+        border: 5px solid rgba(238, 238, 238, 0.527);
+        padding: 20px; 
+        text-align: start;
+        background-color: rgb(247, 248, 250);
+        
+        margin-left: 25px;
+    font-family: serif ;
+    color: rgb(49, 109, 195);
+    font-weight: 550;
+    font-size: large;
+    margin-top: 25px;
+    text-transform: uppercase;
+        
+    }
+    
+    .div6 {
+         grid-area: 1 / 3 / 2 / 4;
+         
+         color: rgb(49, 109, 195);
+    font-family: serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: start;
+    text-transform: uppercase;
+    
+    
+          
+        }
+    .div7 { 
+        grid-area: 2 / 3 / 4 / 4;
+        border: black 1px solid; 
+        color: black;
+        
+    }
+    
+    .images-bar{
+        
+
+}
+
+.image-gallerytext{
+    text-align: center;
+    
+
+    text-transform: uppercase;
+  
+    text-size-adjust: 100%;
+    font-family:serif;
+font-size:37px;
+font-weight:600;
+}
+
+.image-galleryimage{
+    text-align: center;
+}
+
+.beneath-imagesbar{
+    background-color: white;
+ 
+    
+    
+}
+
+.imagesbar-images{
+    padding-bottom:125px;
+    
+
+padding-top:25px;
+}
+.ig{
+    height: 170px;
+    width: 250px;
+
+    
+    
+}
+.ig:hover{
+    opacity: 0.2;
+    transform: scale(1.1);
+    transition: transform 0.7s ease
+    
+   
+}
+
+.afoot{
+ border: 1px solid black;
+ height: 200px;
+}
+.afoot{
+    border: 1px solid red;
+    body{
+        /* background-color: rgb(247, 248, 250); */
+    }
+    
+    li{
+        list-style: none;
+        display: inline;
+        
+        margin-right: 15px;
+        margin-top: 100px;
+        
+        
+        
+       
+       
+        }
+    
+        
+    
+    .container-images{
+        
+        
+       }
+    
+    .top-bar{
+        background-color: rgb(49, 109, 195);
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        
+       
+    
+    }
+    .millions-text{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        list-style-type: none;
+    
+    }
+    
+    
+    .button1, .button2, .button3 {
+        color: rgb(66, 121, 0);
+        border: solid 0.25px rgb(66, 121, 0);
+        padding: 10px 24px;
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        
+    }
+    
+    .icons-topbar{
+        position: relative;
+        right: -20px;
+        
+    }
+    
+    .button-topbar{
+        margin
+        
+    }
+    
+    .individual-image:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+    #button-secondbar{
+        color: black;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 14px;
+        font-weight: 540;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px 16px;
+        border-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    
+    #button-secondbar:hover{
+        background-color: rgb(49, 109, 195);
+        color: white;
+    }
+    
+    .parent-secondbar{
+        height: 70px;
+        /* border: solid 0.5px black; */
+        background-color: rgb(247, 248, 250);
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .saylani-image{
+        align-self: flex-start;
+    }
+    
+    .parentbutton-secondbar{
+        position: absolute;
+      right: 150px;
+    
+    }
+    
+    .saylani-image{
+        
+        position: relative;
+        left: 80px;
+    }
+    #button-secondbarhome{
+        background-color: rgb(49, 109, 195);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 14px;
+        font-weight: 540;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px 16px;
+        border-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    
+    .marquee-div{
+        height: 23px;
+        background-color: rgb(49, 109, 195);
+        margin-top: 12px;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 7px;
+        
+    }
+    .marquee-date{
+        color: rgb(144, 238, 144);
+    }
+    .marquee-moredetails{
+        color: rgb(134, 178, 240);
+    }
+    marquee{
+        color: white;
+        }
+    
+    .container{
+        background-color: rgb(247   , 248, 250);
+        
+        
+    }    
+    
+    #intro{
+        color: rgb(49, 109, 195);
+        font-family: serif;
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+    #duction{
+        color: green;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+    
+    
+    
+    .intro-text, .intro-image{
+        float: right;
+        
+    }
+    
+    .parent-facts{
+        background-color: rgb(38, 85, 232);
+        display: flex;
+        justify-content: space-around;
+        
+        
+        
+        
+    }
+    
+    
+    .parent-dailydast, .parent-familyadoption, .parent-medical, .parent-education{
+        margin: 0px;
+        padding: 60px;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        font-family: serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      
+       
+        
+        
+    }
+    h2{
+        margin-bottom: -10px;
+        padding-bottom: -10px;
+        font-size: 2rem;
+    }
+    h6{
+        margin-top: -10px;
+        padding-top: -10px;
+        font-size: 1rem;
+    }
+    
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(247, 248, 250);
+        padding: 90px;
+      
+        grid-gap: 30px 50px;
+    }
+    .grid-item {
+        background-color: rgb(255, 255, 255);
+            /* border: 1px solid black; */
+        
+        padding: 25px 2px 25px 2px;
+        font-size: 22.5px;
+        text-align: center;
+        box-shadow: 0px 7px 17px -2px rgba(107,104,107,0.60);
+        text-transform: uppercase;
+        color: rgb(83, 134, 204);
+    }
+    
+    .grid-texttop{
+        grid-column: 1 / 4;
+        
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 540;
+        font-size: 32px;
+        text-transform: uppercase;
+    
+    
+      }
+      .im21{
+          background-color: white;
+      }
+    
+    
+    
+      .parentgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-gap: 10px 10px;
+        padding: 10px;
+        padding-left: 120px;
+        margin-right: 120px;
+        }
+        
+        .div1 { 
+            grid-area: 1 / 1 / 2 / 3; 
+            
+            color: rgb(49, 109, 195);
+        font-family: serif;
+        font-weight: 800;
+        font-size: 32px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+        text-transform: uppercase;
+        }
+        .div2 { 
+            grid-area: 2 / 1 / 3 / 2; 
+            border: 5px solid rgba(238, 238, 238, 0.527);
+            padding: 20px;
+            text-align: start;
+            background-color: rgb(247, 248, 250);
+            
+            margin-left: 25px;
+        font-family: serif;
+        color: rgb(49, 109, 195);
+        font-weight: 550;
+        font-size: large;
+        margin-top: 25px;
+        text-transform: uppercase;
+            
+            
+        }
+        .div3 { 
+            grid-area: 2 / 2 / 3 / 3;
+            border: 5px solid rgba(238, 238, 238, 0.527);
+            padding: 20px;
+            text-align: start; 
+            background-color: rgb(247, 248, 250);
+            
+            margin-left: 25px;
+        font-family: serif;
+        color: rgb(49, 109, 195);
+        font-weight: 550;
+        font-size: large;
+        margin-top: 25px;
+        text-transform: uppercase;
+            
+        }
+        .div4 {
+             grid-area: 3 / 1 / 4 / 2;
+             border: 5px solid rgba(238, 238, 238, 0.527);
+             padding: 20px;
+             text-align: start;
+             background-color: rgb(247, 248, 250);
+             
+             margin-left: 25px;
+        font-family: serif;
+        color: rgb(49, 109, 195);
+        font-weight: 550;
+        font-size: large;
+        margin-top: 25px;
+        text-transform: uppercase;
+        }
+            
+        .div5 { 
+            grid-area: 3 / 2 / 4 / 3;
+            border: 5px solid rgba(238, 238, 238, 0.527);
+            padding: 20px; 
+            text-align: start;
+            background-color: rgb(247, 248, 250);
+            
+            margin-left: 25px;
+        font-family: serif ;
+        color: rgb(49, 109, 195);
+        font-weight: 550;
+        font-size: large;
+        margin-top: 25px;
+        text-transform: uppercase;
+            
+        }
+        
+        .div6 {
+             grid-area: 1 / 3 / 2 / 4;
+             
+             color: rgb(49, 109, 195);
+        font-family: serif;
+        font-weight: 800;
+        font-size: 25px;
+        text-align: start;
+        text-transform: uppercase;
+        
+        
+              
+            }
+        .div7 { 
+            grid-area: 2 / 3 / 4 / 4;
+            border: black 1px solid; 
+            color: black;
+            
+        }
+        
+        .images-bar{
+            
+    
+    }
+    
+    .image-gallerytext{
+        text-align: center;
+        
+    
+        text-transform: uppercase;
+      
+        text-size-adjust: 100%;
+        font-family:serif;
+    font-size:37px;
+    font-weight:600;
+    }
+    
+    .image-galleryimage{
+        text-align: center;
+    }
+    
+    .beneath-imagesbar{
+        background-color: white;
+     
+        
+        
+    }
+    
+    .imagesbar-images{
+        padding-bottom:125px;
+        
+    
+    padding-top:25px;
+    }
+    .ig{
+        height: 170px;
+        width: 250px;
+    
+        
+        
+    }
+    .ig:hover{
+        opacity: 0.2;
+        transform: scale(1.1);
+        transition: transform 0.7s ease
+        
+       
+    }
+    
+    .afoot{
+     border: 1px solid black;
+     height: 200px;
+    }
+    .afoot{
+        border: 1px solid red;
+        body{
+            /* background-color: rgb(247, 248, 250); */
+        }
+        
+        li{
+            list-style: none;
+            display: inline;
+            
+            margin-right: 15px;
+            margin-top: 100px;
+            
+            
+            
+           
+           
+            }
+        
+            
+        
+        .container-images{
+            
+            
+           }
+        
+        .top-bar{
+            background-color: rgb(49, 109, 195);
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            
+           
+        
+        }
+        .millions-text{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            list-style-type: none;
+        
+        }
+        
+        
+        .button1, .button2, .button3 {
+            color: rgb(66, 121, 0);
+            border: solid 0.25px rgb(66, 121, 0);
+            padding: 10px 24px;
+            font-size: 12px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            
+        }
+        
+        .icons-topbar{
+            position: relative;
+            right: -20px;
+            
+        }
+        
+        .button-topbar{
+            margin
+            
+        }
+        
+        .individual-image:hover{
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
+        #button-secondbar{
+            color: black;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 13px;
+            padding-right: 13px;
+            font-size: 14px;
+            font-weight: 540;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px 16px;
+            border-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        
+        #button-secondbar:hover{
+            background-color: rgb(49, 109, 195);
+            color: white;
+        }
+        
+        .parent-secondbar{
+            height: 70px;
+            /* border: solid 0.5px black; */
+            background-color: rgb(247, 248, 250);
+            display: flex;
+            align-items: center;
+            
+        
+        }
+        .saylani-image{
+            align-self: flex-start;
+        }
+        
+        .parentbutton-secondbar{
+            position: absolute;
+          right: 150px;
+        
+        }
+        
+        .saylani-image{
+            
+            position: relative;
+            left: 80px;
+        }
+        #button-secondbarhome{
+            background-color: rgb(49, 109, 195);
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 13px;
+            padding-right: 13px;
+            font-size: 14px;
+            font-weight: 540;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px 16px;
+            border-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        
+        .marquee-div{
+            height: 23px;
+            background-color: rgb(49, 109, 195);
+            margin-top: 12px;
+            margin-right: 80px;
+            margin-left: 80px;
+            margin-bottom: 7px;
+            
+        }
+        .marquee-date{
+            color: rgb(144, 238, 144);
+        }
+        .marquee-moredetails{
+            color: rgb(134, 178, 240);
+        }
+        marquee{
+            color: white;
+            }
+        
+        .container{
+            background-color: rgb(247   , 248, 250);
+            
+            
+        }    
+        
+        #intro{
+            color: rgb(49, 109, 195);
+            font-family: serif;
+            font-weight: 900;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+        }
+        #duction{
+            color: green;
+            font-family: serif;
+            font-weight: 900;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+        }
+        
+        
+        
+        .intro-text, .intro-image{
+            float: right;
+            
+        }
+        
+        .parent-facts{
+            background-color: rgb(38, 85, 232);
+            display: flex;
+            justify-content: space-around;
+            
+            
+            
+            
+        }
+        
+        
+        .parent-dailydast, .parent-familyadoption, .parent-medical, .parent-education{
+            margin: 0px;
+            padding: 60px;
+            text-align: center;
+            font-weight: 600;
+            color: white;
+            font-family: serif;
+            margin-top: 50px;
+            margin-bottom: 50px;
+          
+           
+            
+            
+        }
+        h2{
+            margin-bottom: -10px;
+            padding-bottom: -10px;
+            font-size: 2rem;
+        }
+        h6{
+            margin-top: -10px;
+            padding-top: -10px;
+            font-size: 1rem;
+        }
+        
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(247, 248, 250);
+            padding: 90px;
+          
+            grid-gap: 30px 50px;
+        }
+        .grid-item {
+            background-color: rgb(255, 255, 255);
+                /* border: 1px solid black; */
+            
+            padding: 25px 2px 25px 2px;
+            font-size: 22.5px;
+            text-align: center;
+            box-shadow: 0px 7px 17px -2px rgba(107,104,107,0.60);
+            text-transform: uppercase;
+            color: rgb(83, 134, 204);
+        }
+        
+        .grid-texttop{
+            grid-column: 1 / 4;
+            
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 540;
+            font-size: 32px;
+            text-transform: uppercase;
+        
+        
+          }
+          .im21{
+              background-color: white;
+          }
+        
+        
+        
+          .parentgrid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            grid-gap: 10px 10px;
+            padding: 10px;
+            padding-left: 120px;
+            margin-right: 120px;
+            }
+            
+            .div1 { 
+                grid-area: 1 / 1 / 2 / 3; 
+                
+                color: rgb(49, 109, 195);
+            font-family: serif;
+            font-weight: 800;
+            font-size: 32px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            text-transform: uppercase;
+            }
+            .div2 { 
+                grid-area: 2 / 1 / 3 / 2; 
+                border: 5px solid rgba(238, 238, 238, 0.527);
+                padding: 20px;
+                text-align: start;
+                background-color: rgb(247, 248, 250);
+                
+                margin-left: 25px;
+            font-family: serif;
+            color: rgb(49, 109, 195);
+            font-weight: 550;
+            font-size: large;
+            margin-top: 25px;
+            text-transform: uppercase;
+                
+                
+            }
+            .div3 { 
+                grid-area: 2 / 2 / 3 / 3;
+                border: 5px solid rgba(238, 238, 238, 0.527);
+                padding: 20px;
+                text-align: start; 
+                background-color: rgb(247, 248, 250);
+                
+                margin-left: 25px;
+            font-family: serif;
+            color: rgb(49, 109, 195);
+            font-weight: 550;
+            font-size: large;
+            margin-top: 25px;
+            text-transform: uppercase;
+                
+            }
+            .div4 {
+                 grid-area: 3 / 1 / 4 / 2;
+                 border: 5px solid rgba(238, 238, 238, 0.527);
+                 padding: 20px;
+                 text-align: start;
+                 background-color: rgb(247, 248, 250);
+                 
+                 margin-left: 25px;
+            font-family: serif;
+            color: rgb(49, 109, 195);
+            font-weight: 550;
+            font-size: large;
+            margin-top: 25px;
+            text-transform: uppercase;
+            }
+                
+            .div5 { 
+                grid-area: 3 / 2 / 4 / 3;
+                border: 5px solid rgba(238, 238, 238, 0.527);
+                padding: 20px; 
+                text-align: start;
+                background-color: rgb(247, 248, 250);
+                
+                margin-left: 25px;
+            font-family: serif ;
+            color: rgb(49, 109, 195);
+            font-weight: 550;
+            font-size: large;
+            margin-top: 25px;
+            text-transform: uppercase;
+                
+            }
+            
+            .div6 {
+                 grid-area: 1 / 3 / 2 / 4;
+                 
+                 color: rgb(49, 109, 195);
+            font-family: serif;
+            font-weight: 800;
+            font-size: 25px;
+            text-align: start;
+            text-transform: uppercase;
+            
+            
+                  
+                }
+            .div7 { 
+                grid-area: 2 / 3 / 4 / 4;
+                
+                color: black;
+                
+            }
+            
+            .images-bar{
+                
+        
+        }
+        
+        .image-gallerytext{
+            text-align: center;
+            
+        
+            text-transform: uppercase;
+          
+            text-size-adjust: 100%;
+            font-family:serif;
+        font-size:37px;
+        font-weight:600;
+        }
+        
+        .image-galleryimage{
+            text-align: center;
+        }
+        
+        .beneath-imagesbar{
+            background-color: white;
+         
+            
+            
+        }
+        
+        .imagesbar-images{
+            padding-bottom:125px;
+            
+        
+        padding-top:25px;
+        }
+        .ig{
+            height: 170px;
+            width: 250px;
+        
+            
+            
+        }
+        .ig:hover{
+            opacity: 0.2;
+            transform: scale(1.1);
+            transition: transform 0.7s ease
+            
+           }
+
+           .abc{
+               border: 1px solid black;
+               height: 200px;
+           }
+    
+        
+  .h5{
+      font-size: 100px;
+  }
